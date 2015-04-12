@@ -23,7 +23,7 @@ dev.cur()
 ## Open png device
 png(filename = "plot2.png", width = 480, height = 480)
 
-## Draw Plot 1
+## Draw Plot2
 plot(electricPowerConsumption$DateTime, electricPowerConsumption$Global_active_power, ylab = "Global Active Power (kilowatts)", type = "l", xlab = "")
 
 ## Close dev
